@@ -1,0 +1,196 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(/Project/assetes/imgage/pexels-pixabay-70365.jpg);
+    background-position: center;
+    background-size: cover;
+    backdrop-filter: blur(5px);
+}
+
+.header .container .inner-wrap{ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.header .container .inner-wrap .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.header .container .inner-wrap .logo .inner-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 100px;
+}
+.header .inner-wrap .logo .inner-menu{
+    gap: 30px;
+
+}
+.header .inner-wrap .logo .inner-menu li a:hover{
+    color: white;
+    border-bottom: 3px solid white;
+}
+.header .inner-wrap .logo .inner-logo span, .header .inner-wrap .logo .inner-menu{
+    display: flex;
+    margin-top: 8px;
+    font-weight: 1000;
+}
+.header .container .inner-wrap .logo img{
+    width: 60px;
+}
+.header .container .inner-wrap .menu{
+    display: flex;
+    justify-content: center;
+}
+.header .container .inner-wrap .icon .inner-icon{
+    display: flex;
+    margin-top: 8px;
+}
+.header .inner-wrap .icon .inner-icon{
+    gap: 30px;
+    font-size: 20px;
+}
+.header .inner-wrap .icon .inner-icon li i:hover{
+    transform: scale(1.5);
+    transition: 0.5s;
+}
+/* End header  */
+
+
+/* section-main */
+.section-main{
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+}
+.section-main .inner-wrap{
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(/Project/assetes/imgage/pexels-pixabay-70365.jpg);
+    background-position: center;
+    background-size: cover;
+    border: 1px solid black;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 5px 10px 10px 0 lightcyan;
+    transition: 0.5s;
+}.section-main .inner-wrap:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.section-main .inner-wrap .inner-content{
+    margin-top: 60px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+.section-main .inner-wrap .inner-content h1{
+    margin: 0;
+}
+.section-main .inner-wrap .inner-content span{
+    line-height: 20px;
+}
+.section-main .inner-wrap .login{
+    width: 400px;
+    backdrop-filter: blur(10px);
+    padding: 30px;
+}
+.section-main .inner-wrap .login h2{
+    font-size: 35px;
+    text-align: center;
+
+}
+.section-main .inner-wrap .login .input .email{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    border: none;
+    background: transparent;
+    width: 100%;
+    height: 100%;
+    outline: none;
+    color: white;
+    border-bottom: 2px solid white;
+    margin-bottom: 20px;
+}
+.section-main .inner-wrap .login .input .password{
+    border: none;
+    background: transparent;
+    width: 100%;
+    height: 100%;
+    outline: none;
+    color: white;
+    border-bottom: 2px solid white;
+    margin-bottom: 20px;
+}
+.section-main .inner-wrap .login .input i{
+    position: relative;
+    right: -320px;
+    top: -50px
+}
+.section-main .inner-wrap .login .check{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.section-main .inner-wrap .login .check a:hover{
+    color: white;
+    border-bottom: 3px solid white;
+}
+.section-main .inner-wrap .login .button{
+    width: 100%;
+    height: 40px;
+    background: #15A246;
+    border: none;
+    outline: none;
+    border-radius: 7px;
+    color: white;
+    font-size: 20px;
+    font-weight: 1000;
+}
+.section-main .inner-wrap .login .button:hover{
+    font-size: 25px;
+    transform: scale(1.1);
+}
+.section-main .inner-wrap .login .sign-up{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+.section-main .inner-wrap .login .sign-up a{
+    color: yellow;
+}
+.section-main .inner-wrap .login .sign-up a:hover{
+    border-bottom: 3px solid white;
+}
+.section-main .inner-wrap .login .login-with{
+    text-align: center;
+}
+.section-main .inner-wrap .login .icons{
+    text-align: center;
+}
+.section-main .inner-wrap .login .icons a{
+    margin-right: 10px;
+}
+.section-main .inner-wrap .login .icons a:hover{
+    color: white;
+}
+.section-main .inner-wrap .login .icons i:hover{
+    transform: scale(1.3);
+    transition: 0.2s;
+}
+
+.author{
+    margin-top: 120px;
+    
+}
+/* End section-main */
